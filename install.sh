@@ -8,13 +8,13 @@ pkg update && pkg upgrade -y
 pkg install git curl jq -y
 
 # Clone the repository
-git clone https://github.com/mirsiyamofficial/siyam_news.git
+git clone https://github.com/mirsiyamofficial/mir_siyam_news.git
 
 # Change directory
-cd siyam_news
+cd mir_siyam_news
 
 # Make the script executable
-chmod +x run.sh
+chmod +x siyam_news.sh
 
 # Run the script
-echo -e "\nRun the tool using: ./run.sh"
+echo -e "\nRun the tool using: ./siyam_news.sh"
